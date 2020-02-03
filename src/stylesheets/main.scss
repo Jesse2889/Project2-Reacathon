@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Questrial|Quicksand&display=swap');
+
+$bebas-neue: 'Bebas Neue', cursive;
+$quick-sand: 'Quicksand', sans-serif;
+$questrial: 'Questrial', sans-serif;
+$coral-highlight: rgb(241, 75, 46);
+$primary-blue: rgb(104, 218, 238);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 191, 191);
+  font-family: $questrial;
+  color: $primary-blue;
+  min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.error-hero {
+  background-image: url('../assets/spillage\ giphy.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.hero-body {
+  background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/wine-cocktails-1563547968.gif?crop=1.00xw:1.00xh;0,0&resize=980:*');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.error-title {
+  margin: 0px;
+}
+
+.submit-button {
+  margin: 10px 10px;
+}
+
+.control {
+  text-align: center;
+}
+
+.main-title-wrapper {
+  display: flex;
+  width: 100vw;
+  justify-content: flex-start;
+}
+
+.title-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.main-title, .title {
+  font-size: 90px;
+  margin: 20px;
+  font-family: $bebas-neue;
+  letter-spacing: 5px;
+  color: white;
+  text-decoration: underline;
+}
+
+.special-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.card-special {
+  height: 200px;
+  width: 200px;
+}
+
+.second-title {
+  font-size: 50px;
+  margin: 20px;
+  font-family: $bebas-neue;
+  letter-spacing: 5px;
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.is-4 {
+  margin: 0px;
+}
+
+p {
+  color: $coral-highlight;
+}
+
+.card-line {
+  color: $coral-highlight;
+  background-color: $coral-highlight;
+  margin: 0px 15px 5px 15px;
+  height: 1px;
+}
+
+.card-header-title {
+  font-size: 19px;
+  font-family: $questrial;
+  justify-content: center;
+  margin: 5px 30px 0px 30px;
+  letter-spacing: 2px;
+  color: $coral-highlight;
+}
+
+.card-header-subtitle {
+  font-size: 15px;
+  color: $coral-highlight;
+}
+
+.card-header {
+  justify-content: center;
+  box-shadow: none;
+  padding: 0px;
+}
+
+.image {
+  border: white 10px solid;
+}
+
+.section {
+  padding: 48px 150px;
+}
+
+.navbar-item {
+  color: white;
+  background-size: cover;
+  
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#cocktails {
+  background-color: $coral-highlight;
+  font-family: $questrial;
+  height: 30px;
+  letter-spacing: 2px;
+  font-size: 15px;
+  border-width: 3px;
+  border-color: $coral-highlight;
+  color: white;
+  cursor: pointer;
+  justify-content: center;
+  margin: 10px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.button {
+  background-color: $coral-highlight;
+  font-family: $questrial;
+  letter-spacing: 2px;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+}
+
+.navbar {
+  background-color: $coral-highlight;
+}

@@ -1,14 +1,15 @@
-
+![ga-logo](src/assets/ga-logo.png)
 
 # General Assembly Project 2: The Cocktail Club
 
 ## Aim:
 To build a React application that consumes a public API.
 
-## Timeframe:
+## Timeframe
 48 hours 
 
 ## Built together with:
+
 [Abigail Foreman](https://github.com/abigailforeman1)
 
 ## Technologies used:
@@ -24,15 +25,15 @@ To build a React application that consumes a public API.
 * Babel
 * Public Api: https://www.thecocktaildb.com
 
-## Deployment: 
+## Deployment
 
 This app has been deployed on Heroku and can be found here: https://the-cocktail-club.herokuapp.com/
 
-## Getting started: 
+## Getting started
 
 Use the clone button to download the source code. From the root directory type 'npm run serve' in the terminal then navigate to localhost:4000 in your browser.
 
-## Brief: 
+## Brief
 
 For this project we had to build a React application that consumed a public API, which incorporated at least one classical/functional component, including a router with several "pages", included wireframes that we designed before building, have semantically clean HTML and be deployed online and accessible to the public.
 
@@ -40,7 +41,8 @@ This was my second project on General Assembly’s SEI course and also my first 
 
 ![Cocktail Club homepage](src/assets/cocktail-club-homepage.png)
 
-## Website architecture:
+## Website architecture
+
 Welcome to The Cocktail Club - your one-stop shop for cocktail inspiration and recipes! This website is made up of a homepage, a cocktail index page with search functionality, a cocktail show page, a cocktail surprise page and navbar with links. The public API used is a database of cocktails displaying information about ingredients, measurements, types of glass, alcohol content and an image. We picked this API as it offered a test API key to access the database if you are using it as a tool to learn.
 
 To begin this project we set up an Insomnia workspace to help understand the data and begin dealing with initial data requests from the database. We then started drawing out the wireframes and sitemap on paper so we both agreed on the sites functionality and downloaded a number of Node.js packages. 
